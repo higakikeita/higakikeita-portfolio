@@ -10,16 +10,22 @@ interface Publication {
 }
 
 const publications: Publication[] = [
-  // TODO: あなたの著書・寄稿をここに追加
-  // 例:
-  // {
-  //   title: "クラウドネイティブセキュリティ実践ガイド",
-  //   role: "共著（第3章：Kubernetesセキュリティ執筆）",
-  //   publisher: "技術評論社",
-  //   year: 2024,
-  //   description: "Kubernetesやクラウド環境におけるセキュリティ設計・運用のベストプラクティスを解説。Sysdig、Falco、IaCを活用した実践内容も紹介。",
-  //   link: "https://example.com"
-  // },
+  {
+    title: "Falco実践ガイドシリーズ",
+    role: "著者",
+    publisher: "Zenn Book",
+    year: 2024,
+    description: "クラウドネイティブランタイムセキュリティツールFalcoの実践的な使い方を解説。Sysdig CSEとしての実務経験をもとに、実際の顧客環境で発生したインシデント事例や、Falcoルールのカスタマイズ、運用ノウハウを詳しく紹介。Kubernetes環境でのセキュリティ監視を実装したいエンジニア必読の一冊。",
+    link: "https://zenn.dev/keitah0322/books/falco-practice-series"
+  },
+  {
+    title: "AWS認定 高度なネットワーキング - 専門知識 (ANS-C01) 完全対応テキスト",
+    role: "共著・技術レビュー",
+    publisher: "技術評論社",
+    year: 2024,
+    description: "AWS認定資格「高度なネットワーキング - 専門知識 (ANS-C01)」の完全対応テキスト。AWSのネットワーク設計、Direct Connect、VPN、Transit Gateway、Route 53など、高度なネットワーキングサービスの設計と実装を詳しく解説。実務で役立つベストプラクティスも豊富に掲載。",
+    link: "https://www.amazon.co.jp/dp/4865944087"
+  },
 ];
 
 export default function Publications() {
