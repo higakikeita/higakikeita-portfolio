@@ -131,7 +131,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-white mb-6">Connect</h3>
               <div className="space-y-3">
                 <a
-                  href="https://twitter.com/your_twitter"
+                  href="https://twitter.com/keitah0322"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-slate-700 hover:bg-slate-600 rounded-lg transition"
@@ -139,7 +139,7 @@ export default function Home() {
                   <div className="text-2xl">𝕏</div>
                   <div>
                     <p className="text-white font-semibold">X (Twitter)</p>
-                    <p className="text-slate-400 text-sm">Daily tech activities & insights</p>
+                    <p className="text-slate-400 text-sm">@keitah0322 • Daily tech activities & insights</p>
                   </div>
                 </a>
                 <a
