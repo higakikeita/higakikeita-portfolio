@@ -19,7 +19,7 @@ const articles: Article[] = [
     tags: ["Interview", "Cloud", "AWS", "Google Cloud", "Architecture"]
   },
   {
-    title: "制度の活用で"つながりを広げ、未来を切り拓く" – iret テクニカルアンバサダーインタビュー",
+    title: "制度の活用でつながりを広げ、未来を切り拓く – iret テクニカルアンバサダーインタビュー",
     platform: "Other",
     date: "2024-09",
     description: "2024年度iret Advanced Technical Ambassadorとして紹介。TAMグループリーダーとしての役割、顧客課題解決へのアプローチ、社内でのタレント育成への取り組みについて語る。AWSトレーニングのメンターシップなど、テクニカルアンバサダープログラムを通じた活動を紹介。",
