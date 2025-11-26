@@ -12,10 +12,10 @@ interface Project {
 const projects: Project[] = [
   {
     name: "tfdrift-falco",
-    description: "Infrastructure drift detection using Terraform and Falco. Detects unauthorized changes to cloud infrastructure in real-time.",
-    tech: ["Terraform", "Falco", "Kubernetes", "Security"],
+    description: "Event-driven Terraform drift detector with Falco integration. Real-time monitoring of AWS CloudTrail events to detect manual infrastructure changes that bypass IaC workflows. Provides instant alerts when resources deviate from Terraform state, with security context including user identity and source information. Features multi-channel alerting (Slack, Discord, webhooks) and runs as standalone or Kubernetes sidecar.",
+    tech: ["Go", "Terraform", "Falco", "AWS CloudTrail", "Kubernetes", "Security", "DevOps", "IaC"],
     github: "https://github.com/higakikeita/tfdrift-falco",
-    stars: 0, // TODO: 実際のStar数に更新
+    stars: 6,
   },
   // TODO: 他のOSSプロジェクトを追加
 ];
@@ -99,18 +99,22 @@ export default function Projects() {
           {/* Contribution Stats */}
           <div className="mt-16 bg-slate-800 p-8 rounded-lg">
             <h2 className="text-2xl font-bold text-white mb-6">Open Source Contributions</h2>
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-4 gap-6">
               <div className="text-center">
-                <div className="text-4xl font-bold text-blue-400 mb-2">10+</div>
+                <div className="text-4xl font-bold text-blue-400 mb-2">50</div>
                 <div className="text-slate-400">Repositories</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-green-400 mb-2">50+</div>
-                <div className="text-slate-400">Contributions</div>
+                <div className="text-4xl font-bold text-green-400 mb-2">23+</div>
+                <div className="text-slate-400">Commits</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-purple-400 mb-2">5+</div>
-                <div className="text-slate-400">Projects</div>
+                <div className="text-4xl font-bold text-purple-400 mb-2">3+</div>
+                <div className="text-slate-400">Pull Requests</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-bold text-yellow-400 mb-2">6</div>
+                <div className="text-slate-400">Stars</div>
               </div>
             </div>
           </div>
