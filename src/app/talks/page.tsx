@@ -11,23 +11,23 @@ interface Talk {
 }
 
 const talks: Talk[] = [
-  // TODO: あなたの登壇実績をここに追加
-  // 例:
-  // {
-  //   title: "Terraform×Falcoで始めるInfra Drift Detection",
-  //   event: "CloudNative Days Tokyo 2024",
-  //   date: "2024-12",
-  //   type: "Lightning Talk",
-  //   description: "GitHub OSS \"tfdrift-falco\" のコンセプトと実装事例を紹介",
-  //   slides: "https://speakerdeck.com/...",
-  // },
-  // {
-  //   title: "Sysdig Secure/Monitor Live Demo",
-  //   event: "Architecture 2025 - Expo Booth",
-  //   date: "2025-01",
-  //   type: "Booth",
-  //   description: "エンタープライズ向け Sysdig Secure/Monitor のライブデモ担当。Prometheus v2, Falco, KSPM, Vulnerability Lifecycleを紹介。",
-  // },
+  {
+    title: "Google Cloud で目指すクラウド二刀流エンジニア講座",
+    event: "Google Cloud Official Event",
+    date: "2025-06",
+    type: "Webinar",
+    description: "Google Cloud公式イベントにゲストスピーカーとして登壇。AWSとGoogle Cloudの両方を使いこなす「二刀流エンジニア」を目指すための講座。マルチクラウド環境での実践的なノウハウを共有。",
+    slides: "https://cloudpack.jp/info/20250523-2.html"
+  },
+  {
+    title: "マルチクラウド環境におけるコスト最適化持続的サイクルの構築",
+    event: "ServerlessDays Tokyo 2024",
+    date: "2024-10",
+    type: "Conference",
+    description: "マルチクラウド（Google Cloud・AWS）環境での継続的なコスト最適化戦略を解説。サーバーレスアーキテクチャへの移行事例、技術選定の根拠、実装詳細、利用予測、予算計画について、実際のケーススタディを交えて発表。FinOpsの実践的な要素についても、チームの経験をもとに共有。",
+    slides: "https://tokyo.serverlessdays.io/2024/speakers/detail-higaki.html"
+  },
+  // TODO: 他の登壇実績を追加
 ];
 
 const typeColors = {

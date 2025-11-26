@@ -10,16 +10,22 @@ interface Article {
 }
 
 const articles: Article[] = [
-  // TODO: あなたの技術記事をここに追加
-  // 例:
-  // {
-  //   title: "Falcoで学ぶクラウドネイティブセキュリティ",
-  //   platform: "Zenn",
-  //   date: "2024-12",
-  //   description: "Sysdig CSEとして、実際の顧客環境で発生したインシデント事例や、Falcoルールの改善ノウハウを連載形式で発信。",
-  //   link: "https://zenn.dev/xxxxx",
-  //   tags: ["Falco", "Security", "Kubernetes"]
-  // },
+  {
+    title: "クラウド人図鑑 エピソード 6 – 檜垣慶太さん",
+    platform: "Other",
+    date: "2024-07",
+    description: "Momento主催のクラウド人図鑑シリーズに出演。オンプレミスからクラウド移行の経験、クラウドコスト最適化の考え方、ユースケースに応じた適切なアーキテクチャ構築の哲学について語る。AWS Japan・Google CloudからTop Engineerとして認定された経歴を持つクラウドアーキテクト。",
+    link: "https://www.gomomento.com/jp/resources/blog-jp/cloud-people-encyclopedia-episode-6/",
+    tags: ["Interview", "Cloud", "AWS", "Google Cloud", "Architecture"]
+  },
+  {
+    title: "制度の活用で"つながりを広げ、未来を切り拓く" – iret テクニカルアンバサダーインタビュー",
+    platform: "Other",
+    date: "2024-09",
+    description: "2024年度iret Advanced Technical Ambassadorとして紹介。TAMグループリーダーとしての役割、顧客課題解決へのアプローチ、社内でのタレント育成への取り組みについて語る。AWSトレーニングのメンターシップなど、テクニカルアンバサダープログラムを通じた活動を紹介。",
+    link: "https://iret.media/121848",
+    tags: ["Interview", "Career", "Technical Ambassador", "Leadership"]
+  },
 ];
 
 const platformColors = {
