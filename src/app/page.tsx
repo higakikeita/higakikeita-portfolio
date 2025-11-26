@@ -143,7 +143,7 @@ export default function Home() {
                   </div>
                 </a>
                 <a
-                  href="https://www.instagram.com/your_instagram"
+                  href="https://www.instagram.com/keitah0322/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-slate-700 hover:bg-slate-600 rounded-lg transition"
@@ -151,7 +151,7 @@ export default function Home() {
                   <div className="text-2xl">📷</div>
                   <div>
                     <p className="text-white font-semibold">Instagram</p>
-                    <p className="text-slate-400 text-sm">Tech events & community</p>
+                    <p className="text-slate-400 text-sm">@keitah0322 • Tech events & community</p>
                   </div>
                 </a>
                 <a
