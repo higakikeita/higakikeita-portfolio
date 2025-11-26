@@ -40,7 +40,7 @@ export default function Home() {
                 GitHub
               </a>
               <a
-                href="https://www.linkedin.com/in/keita-higaki"
+                href="https://www.linkedin.com/in/keita-higaki-a81377176/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-lg transition"
@@ -167,7 +167,7 @@ export default function Home() {
                   </div>
                 </a>
                 <a
-                  href="https://qiita.com/your_qiita"
+                  href="https://qiita.com/keitah"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-slate-700 hover:bg-slate-600 rounded-lg transition"
@@ -175,7 +175,7 @@ export default function Home() {
                   <div className="text-2xl">🟢</div>
                   <div>
                     <p className="text-white font-semibold">Qiita</p>
-                    <p className="text-slate-400 text-sm">Technical articles</p>
+                    <p className="text-slate-400 text-sm">@keitah • Technical articles</p>
                   </div>
                 </a>
                 <a
@@ -191,7 +191,7 @@ export default function Home() {
                   </div>
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/keita-higaki"
+                  href="https://www.linkedin.com/in/keita-higaki-a81377176/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-slate-700 hover:bg-slate-600 rounded-lg transition"
@@ -199,7 +199,7 @@ export default function Home() {
                   <div className="text-2xl">💼</div>
                   <div>
                     <p className="text-white font-semibold">LinkedIn</p>
-                    <p className="text-slate-400 text-sm">Professional network</p>
+                    <p className="text-slate-400 text-sm">Professional network & career</p>
                   </div>
                 </a>
               </div>
