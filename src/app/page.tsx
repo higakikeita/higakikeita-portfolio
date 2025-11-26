@@ -1,4 +1,5 @@
 import Link from "next/link";
+import RecentPosts from "@/components/RecentPosts";
 
 export default function Home() {
   return (
@@ -110,6 +111,121 @@ export default function Home() {
                 <p className="text-slate-300">Open-source contributions and community projects</p>
               </div>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Recent Activity Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-800/50">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">Recent Activity</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Blog/Activity Feed */}
+            <div className="bg-slate-800 p-8 rounded-lg">
+              <h3 className="text-2xl font-bold text-white mb-6">Latest Posts</h3>
+              <RecentPosts />
+            </div>
+
+            {/* Social Stats */}
+            <div className="bg-slate-800 p-8 rounded-lg">
+              <h3 className="text-2xl font-bold text-white mb-6">Connect</h3>
+              <div className="space-y-3">
+                <a
+                  href="https://twitter.com/your_twitter"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 p-4 bg-slate-700 hover:bg-slate-600 rounded-lg transition"
+                >
+                  <div className="text-2xl">𝕏</div>
+                  <div>
+                    <p className="text-white font-semibold">X (Twitter)</p>
+                    <p className="text-slate-400 text-sm">Daily tech activities & insights</p>
+                  </div>
+                </a>
+                <a
+                  href="https://www.instagram.com/your_instagram"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 p-4 bg-slate-700 hover:bg-slate-600 rounded-lg transition"
+                >
+                  <div className="text-2xl">📷</div>
+                  <div>
+                    <p className="text-white font-semibold">Instagram</p>
+                    <p className="text-slate-400 text-sm">Tech events & community</p>
+                  </div>
+                </a>
+                <a
+                  href="https://zenn.dev/keitah0322"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 p-4 bg-slate-700 hover:bg-slate-600 rounded-lg transition"
+                >
+                  <div className="text-2xl">📝</div>
+                  <div>
+                    <p className="text-white font-semibold">Zenn</p>
+                    <p className="text-slate-400 text-sm">@keitah0322</p>
+                  </div>
+                </a>
+                <a
+                  href="https://qiita.com/your_qiita"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 p-4 bg-slate-700 hover:bg-slate-600 rounded-lg transition"
+                >
+                  <div className="text-2xl">🟢</div>
+                  <div>
+                    <p className="text-white font-semibold">Qiita</p>
+                    <p className="text-slate-400 text-sm">Technical articles</p>
+                  </div>
+                </a>
+                <a
+                  href="https://github.com/higakikeita"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 p-4 bg-slate-700 hover:bg-slate-600 rounded-lg transition"
+                >
+                  <div className="text-2xl">💻</div>
+                  <div>
+                    <p className="text-white font-semibold">GitHub</p>
+                    <p className="text-slate-400 text-sm">@higakikeita</p>
+                  </div>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/keita-higaki"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 p-4 bg-slate-700 hover:bg-slate-600 rounded-lg transition"
+                >
+                  <div className="text-2xl">💼</div>
+                  <div>
+                    <p className="text-white font-semibold">LinkedIn</p>
+                    <p className="text-slate-400 text-sm">Professional network</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Career Timeline Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">Career</h2>
+          <div className="space-y-8">
+            <div className="flex gap-6">
+              <div className="flex-shrink-0 w-24 text-right">
+                <span className="text-blue-400 font-semibold">2023 -</span>
+              </div>
+              <div className="flex-1 bg-slate-800 p-6 rounded-lg">
+                <h3 className="text-xl font-bold text-white mb-2">Customer Success Engineer</h3>
+                <p className="text-blue-400 mb-3">Sysdig Japan</p>
+                <p className="text-slate-300">
+                  Enterprise customer support for cloud-native security solutions. Working with major clients including IIJ, SCSK, and Square Enix on Kubernetes security, observability, and compliance.
+                </p>
+              </div>
+            </div>
+            {/* Add more career entries as needed */}
           </div>
         </div>
       </section>
