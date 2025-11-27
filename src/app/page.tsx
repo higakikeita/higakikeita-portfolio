@@ -1,5 +1,7 @@
 import Link from "next/link";
 import RecentPosts from "@/components/RecentPosts";
+import { FaXTwitter, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa6";
+import { SiZenn, SiQiita } from "react-icons/si";
 
 export default function Home() {
   return (
@@ -35,16 +37,18 @@ export default function Home() {
                 href="https://github.com/higakikeita"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-3 bg-slate-700 hover:bg-slate-600 text-white rounded-lg transition"
+                className="flex items-center gap-2 px-6 py-3 bg-slate-700 hover:bg-slate-600 text-white rounded-lg transition"
               >
+                <FaGithub className="text-xl" />
                 GitHub
               </a>
               <a
                 href="https://www.linkedin.com/in/keita-higaki-a81377176/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-lg transition"
+                className="flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-lg transition"
               >
+                <FaLinkedin className="text-xl" />
                 LinkedIn
               </a>
             </div>
@@ -136,7 +140,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-slate-700 hover:bg-slate-600 rounded-lg transition"
                 >
-                  <div className="text-2xl">𝕏</div>
+                  <FaXTwitter className="text-3xl text-white" />
                   <div>
                     <p className="text-white font-semibold">X (Twitter)</p>
                     <p className="text-slate-400 text-sm">@keitah0322 • Daily tech activities & insights</p>
@@ -148,7 +152,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-slate-700 hover:bg-slate-600 rounded-lg transition"
                 >
-                  <div className="text-2xl">📷</div>
+                  <FaInstagram className="text-3xl text-white" />
                   <div>
                     <p className="text-white font-semibold">Instagram</p>
                     <p className="text-slate-400 text-sm">@keitah0322 • Tech events & community</p>
@@ -160,7 +164,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-slate-700 hover:bg-slate-600 rounded-lg transition"
                 >
-                  <div className="text-2xl">📝</div>
+                  <SiZenn className="text-3xl text-white" />
                   <div>
                     <p className="text-white font-semibold">Zenn</p>
                     <p className="text-slate-400 text-sm">@keitah0322</p>
@@ -172,7 +176,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-slate-700 hover:bg-slate-600 rounded-lg transition"
                 >
-                  <div className="text-2xl">🟢</div>
+                  <SiQiita className="text-3xl text-white" />
                   <div>
                     <p className="text-white font-semibold">Qiita</p>
                     <p className="text-slate-400 text-sm">@keitah • Technical articles</p>
@@ -184,7 +188,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-slate-700 hover:bg-slate-600 rounded-lg transition"
                 >
-                  <div className="text-2xl">💻</div>
+                  <FaGithub className="text-3xl text-white" />
                   <div>
                     <p className="text-white font-semibold">GitHub</p>
                     <p className="text-slate-400 text-sm">@higakikeita</p>
@@ -196,7 +200,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-slate-700 hover:bg-slate-600 rounded-lg transition"
                 >
-                  <div className="text-2xl">💼</div>
+                  <FaLinkedin className="text-3xl text-white" />
                   <div>
                     <p className="text-white font-semibold">LinkedIn</p>
                     <p className="text-slate-400 text-sm">Professional network & career</p>
