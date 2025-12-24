@@ -12,6 +12,14 @@ interface Talk {
 
 const talks: Talk[] = [
   {
+    title: "AI Security Conference",
+    event: "AI Security Conference 2026",
+    date: "2026-01",
+    type: "Conference",
+    description: "ファインディ株式会社が主催するAI時代のセキュリティカンファレンス。AI活用が当たり前になった時代における組織のセキュリティ戦略について、最新の事例と知見を共有。",
+    slides: "https://ai-security-con.findy-tools.io/2026/timetable"
+  },
+  {
     title: "Google Cloud で目指すクラウド二刀流エンジニア講座",
     event: "Google Cloud Official Event",
     date: "2025-06",
